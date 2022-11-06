@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h6{
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+div form{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    min-width: 600px;
+    margin: auto;
+    margin-top: 10px;
+
+}
+
+div form label{
+    margin: 5px ;
+}
+
+div form input{
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+div form button{
+    border-radius: 10px;
+    width: 30%;
+    font-size: 15px;
+    margin: auto;
+    margin-top: 10px;
+    height: 30px;
+}
+
+div form button:hover{
+    cursor: pointer;
+    background-color: darkgray;
+    color: white;
+}
+
+#notes ul li div {
+    width: 400px;
+    background-color: rgb(250, 245, 240);
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    box-shadow: 5px 10px;
+}
+
+#notes ul li div h5 {
+    font-size: 20px;
+    text-align: center;
+}
+
+#notes ul li div p {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#notes ul li div caption {
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 20px;
+}
+
+#notes ul li div button {
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(228, 107, 107);
+    color: white;
+    display: flex;
+    margin-left: auto;
+}
+
+#notes ul li div button:hover {
+    cursor: pointer;
+    background-color: rgb(236, 15, 15);
+}
+
+
+
